@@ -8,8 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
+        Erastotenes.sito (30);
         int k=2;
-        while (k<200) {
+        while (k<30) {
             int licznik =0;
 
             for (int i =2;i<k;i++){
@@ -26,3 +27,4 @@ public class App
     }
     }
 }
+
